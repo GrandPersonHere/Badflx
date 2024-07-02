@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badflx</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Welcome to Badflx</h1>
+    
+    <!-- Use a form for submitting -->
+    <form action="main/index.html">
+        <button onmousedown="sound1.play()" type="submit">Start Watching</button>
+    </form>
+
+    <div class="logo-container">
+        <img src="main/imgs/Logo.png" alt="Logo" class="logo">
+    </div>
+
+    <script>
+        var sound1 = new Audio()
+        sound1.src = "audio/Noise.mp3"
+    </script>
+</body>
+</html>

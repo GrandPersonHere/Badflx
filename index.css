@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    text-align: center;      /* Center text */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use Comic Sans font */
+}
+
+h1 {
+    color: white;
+    font-size: 3vw; /* Use viewport width units for font size */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%; /* Adjust top position as needed */
+}
+
+button {
+    font-size: 1.7vw;
+    padding: 2vh 4vw;
+    border: none;
+    border-radius: 30px;
+    background-color: darkred;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition: border 3.15s;
+}
+
+button:active {
+    border: 5px solid white;
+    transform: scale(1.02);
+}
+
+.logo-container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+.logo {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+}
+
+#b {
+    width: 400px;
+    height: 400px;
+    top: 5%;
+}

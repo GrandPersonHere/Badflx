@@ -1,0 +1,3 @@
+1.0 fixed size issue, added more profiles and made new names.
+1.1 unnessasery fix reverted, added a transition, make the looks of the website better, added dementia (Does nothing for now), renamed the file
+1.2 dementia

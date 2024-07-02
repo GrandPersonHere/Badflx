@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badflx Selector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #141414;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .search-bar {
+            padding: 10px;
+            width: 200px;
+            border-radius: 5px;
+            border: none;
+        }
+        .movies-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .movie {
+            background-color: #333;
+            border-radius: 5px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .movie img {
+            width: 100%;
+        }
+        .movie-title {
+            padding: 10px;
+            font-size: 18px;
+        }
+        .logo-container {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .logos {
+            width: 50px; /* Adjust the size as needed */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Badflix</div>
+        <input type="text" class="search-bar" placeholder="Search...">
+    </header>
+    <div class="logo-container">
+        <img src="/main/imgs/Logo.png" alt="Logo" class="logos">
+    </div>
+    <div class="movies-container">
+        <div class="movie">
+            <a href="https://forms.gle/PcvKVscRhTtdhZSr8"><img src="/main/imgs/Google_Forms_Logo_512px.png" alt="Movie 4"></a>
+            <div class="movie-title">Movie Suggestion</div>
+        </div>
+        <div class="movie">
+            <a href="/playback/venompreview.html"><img src="https://i.etsystatic.com/12729518/r/il/9e7151/1941537332/il_570xN.1941537332_3nam.jpg" alt="Movie 1"></a>
+            <div class="movie-title">Venom1</div>
+        </div>
+        <div class="movie">
+            <a href="#"><img src="https://via.placeholder.com/200x300" alt="Movie 2"></a>
+            <div class="movie-title">none</div>
+        </div>
+        <div class="movie">
+            <a href="#">
+                <img src="https://via.placeholder.com/200x300" alt="Movie 3">
+            </a>
+            <div class="movie-title">none</div>
+        </div>
+    </div>
+    <script>
+        const searchBar = document.querySelector('.search-bar');
+        const movies = document.querySelectorAll('.movie');
+
+        searchBar.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            movies.forEach(movie => {
+                const title = movie.querySelector('.movie-title').textContent.toLowerCase();
+                if (title.includes(searchTerm)) {
+                    movie.style.display = '';
+                } else {
+                    movie.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
