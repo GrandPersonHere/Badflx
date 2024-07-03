@@ -82,8 +82,8 @@ body {
 
 #editbutton {
     display: inline-block;
-    padding: 15px 25px;
-    font-size: 15px;
+    padding: 5px 15px;
+    font-size: 25px;
     background-color: red; /* Button background color */
     color: black; /* Text color */
     text-align: center;
