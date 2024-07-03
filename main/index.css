@@ -80,12 +80,14 @@ body {
     height: auto;
 }
 
-#editbutton {
-    position: absolute;
-    top: 15px;
-    left: 40%;
-    right: 40%;
-    display: inline-block;
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.editbutton {
+    position: relative;
     padding: 5px 15px;
     font-size: 25px;
     background-color: red; /* Button background color */
@@ -93,12 +95,10 @@ body {
     text-align: center;
     text-decoration: none;
     border: none;
-    cursor: pointer;
+    overflow: hidden;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
     transition: border-color 0.8s ease; /* Changed to target border-color */
     font-family: 'Comic Sans MS', cursive, sans-serif;
-}
-
-#editbutton:hover {
-    border: 2px solid white; /* Added 'solid' to specify border style */
 }
