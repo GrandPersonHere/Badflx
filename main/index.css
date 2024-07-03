@@ -92,7 +92,7 @@ body {
     cursor: pointer;
     border-radius: 10px;
     transition: border-color 0.8s ease; /* Changed to target border-color */
-    font-family: cursive sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 #editbutton:hover {
