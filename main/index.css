@@ -80,7 +80,7 @@ body {
     height: auto;
 }
 
-.profile #button {
+.profile span #edit {
     margin-top: 20px; /* Adjust spacing between image and name */
     color: rgb(0, 0, 0); /* Example color */
     background-color: red;
