@@ -83,7 +83,7 @@ body {
 #editbutton {
     position: absolute;
     top: 15px;
-    left: 50%;
+    left: 250vh;
     transform: translateX(-50%);
     display: inline-block;
     padding: 5px 15px;
