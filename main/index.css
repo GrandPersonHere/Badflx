@@ -80,7 +80,7 @@ body {
     height: auto;
 }
 
-#editbutton {
+.editbutton {
     display: inline-block;
     padding: 5px 15px;
     font-size: 25px;
@@ -95,6 +95,6 @@ body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
-#editbutton:hover {
+.editbutton:hover {
     border: 2px solid white; /* Added 'solid' to specify border style */
 }
