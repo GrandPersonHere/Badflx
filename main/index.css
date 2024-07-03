@@ -79,3 +79,13 @@ body {
     width: 50px; /* Adjust the size as needed */
     height: auto;
 }
+
+.profile .Edit {
+    font-size: 34px; /* Increased font size for profile names */
+    display: block; /* Ensure each name is on a new line */
+    margin-top: 20px; /* Adjust spacing between image and name */
+    color: white; /* Example color */
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
