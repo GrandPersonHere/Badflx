@@ -80,7 +80,7 @@ body {
     height: auto;
 }
 
-span.button {
+#editbutton {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff; /* Button background color */
@@ -93,6 +93,6 @@ span.button {
     transition: background-color 0.3s ease;
 }
 
-span.button:hover {
+#editbutton:hover {
     background-color: #0056b3; /* Darker background color on hover */
 }
