@@ -17,7 +17,7 @@
                 <a class="profile" href="/Browse/">
                     <img src="/main/imgs/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg" alt="Profile 1" id="currentProfileImg">
                     <span>DadDevil</span>
-                    <span class="editbutton"><a href="avatar.html"><button class="editbutton">Edit</button></a></span>
+                    <span id="mySpan"><button>Edit</button></span>
                 </a>                
                 <a class="profile" href="/main/Dementia/1.html">
                     <img src="/main/imgs/netflix-profile-pictures-1000-x-1000-dyrp6bw6adbulg5b.jpg" alt="Profile 2">
@@ -28,5 +28,10 @@
     </div>
     
     <script src="script.js"></script>
+    <script>
+        document.getElementById("mySpan").onclick = function() {
+            window.location.href = "https://badflx.netlify.app/main/avatar"; // Replace with your URL
+        };
+    </script>    
 </body>
 </html>
