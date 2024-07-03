@@ -102,3 +102,7 @@ body {
     transition: border-color 0.8s ease; /* Changed to target border-color */
     font-family: 'Comic Sans MS', cursive, sans-serif;
 }
+
+.editbutton:hover {
+    border: 6px white;
+}
