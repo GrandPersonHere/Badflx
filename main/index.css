@@ -100,7 +100,7 @@ body {
     cursor: pointer;
     transition: border-color 0.8s ease; /* Changed to target border-color */
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    transition: transform 0.7s ease;
+    transition: border-color 0.7s ease;
 }
 
 .editbutton:hover {
