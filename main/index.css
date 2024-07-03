@@ -97,10 +97,10 @@ body {
     border: none;
     overflow: hidden;
     border-radius: 10px;
-    transition: transform 0.3s ease;
     cursor: pointer;
     transition: border-color 0.8s ease; /* Changed to target border-color */
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    transition: transform 0.7s ease;
 }
 
 .editbutton:hover {
